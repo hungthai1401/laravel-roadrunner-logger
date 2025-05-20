@@ -2,6 +2,12 @@
 
 A Laravel logger wrapper for the RoadRunner app-logger, allowing seamless integration of RoadRunner's logging capabilities into your Laravel application.
 
+## Requirements
+
+- PHP 8.1 or higher
+- Laravel 9.x or higher
+- RoadRunner app-logger 1.0 or higher
+
 ## Installation
 
 You can install the package via Composer:
@@ -37,12 +43,6 @@ use Illuminate\Support\Facades\Log;
 
 Log::channel('rr')->error('An error occurred');
 ```
-
-## Requirements
-
-- PHP 8.1 or higher
-- Laravel 9.x or 10.x
-- RoadRunner app-logger 1.0 or higher
 
 ## Testing
 
