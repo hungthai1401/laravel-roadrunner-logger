@@ -20,13 +20,11 @@ composer require hungthai1401/laravel-roadrunner-logger
 
 ### Configuration
 
-After installation, publish the configuration file:
+After installation, you can set RoadRunner RPC address in your `.env` file, or use the default value `tcp://127.0.0.1:6001`:
 
-```bash
-php artisan vendor:publish --tag=config
+```env
+RR_RPC=...
 ```
-
-This will create a `config/roadrunner-logger.php` file in your application where you can modify the logger settings.
 
 ### Logging
 
@@ -47,7 +45,7 @@ Log::channel('rr')->error('An error occurred');
 ## Testing
 
 ```bash
-composer test
+composer test:unit
 ```
 
 ## License

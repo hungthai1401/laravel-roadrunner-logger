@@ -51,6 +51,9 @@
             "phpunit"
         ]
     },
+    "suggest": {
+        "spiral/roadrunner": "🤯 High-performance PHP application server, process manager written in Go and powered with plugins"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
